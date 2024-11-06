@@ -60,7 +60,7 @@ export const Resetpassword = () => {
             <input
               type="text"
               className="form-control"
-              placeholder="Enter email"
+              placeholder="Enter New password"
               name="newpassword"
               value={password.newpassword}
               onChange={passwordchange}
@@ -74,7 +74,7 @@ export const Resetpassword = () => {
             <input
               type="password"
               className="form-control"
-              placeholder="Enter email"
+              placeholder="Re-Enter password"
               name="confirmpassword"
               value={password.confirmpassword}
               onChange={passwordchange}
